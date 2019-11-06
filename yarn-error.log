@@ -1,5 +1,5 @@
 Arguments: 
-  /home/kate/.nvm/versions/node/v10.16.0/bin/node /usr/share/yarn/bin/yarn.js init
+  /home/kate/.nvm/versions/node/v10.16.0/bin/node /usr/share/yarn/bin/yarn.js add bcrypjs
 
 PATH: 
   /home/kate/.nvm/versions/node/v10.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -14,17 +14,17 @@ Platform:
   linux x64
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:136724:13)
-      at Interface.emit (events.js:198:13)
-      at Interface._ttyWrite (readline.js:801:16)
-      at ReadStream.onkeypress (readline.js:184:10)
-      at ReadStream.emit (events.js:198:13)
-      at emitKeys (internal/readline.js:424:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (readline.js:1075:36)
-      at ReadStream.emit (events.js:198:13)
-      at addChunk (_stream_readable.js:288:12)
+  Error: https://registry.yarnpkg.com/bcrypjs: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66830:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140464:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141436:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141358:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
 
 npm manifest: 
   {
